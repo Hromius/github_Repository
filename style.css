@@ -1,0 +1,42 @@
+body{background-color: #C4C4C4;
+display: flex;
+justify-content:center;
+}
+.search-input{
+font-size: 25px;
+width: 300px;
+height: 30px;
+padding: 10px;
+}
+.users{
+margin-top: 1px;
+}
+.user-prev{
+list-style-type:none;
+background-color: #E3E3E3;
+border: 2px solid rgb(0, 0, 0);
+width: 320px;
+height: 35px;
+margin-left: -40px;
+font-size: 20px;
+}
+.user-repositories{
+margin-left: 10px;
+}
+.repos{
+list-style-type:none;
+
+}
+.info-repositiries{
+position: relative;
+background-color: #E27BEB;
+width: 320px;
+height: 60px;
+margin-left: -40px;
+border: 2px solid rgb(0, 0, 0);
+}
+.delete{
+ position: absolute; 
+ top: 10px;
+ right: 20px; 
+}
